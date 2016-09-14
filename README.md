@@ -38,10 +38,10 @@ During using of the solution, it started to grow and today main functions of the
  * The user can see the hero button only if the user has permissions in current folder 
  * You can set the dependencies of content types for creation in settings javascript file
  * There is an option to show or use standard link if the content type to create is only one
- * There is an option to show a loading gif on the page instead of grid with data before callut data is loaded
- * There is an option that automatically reloads the page if the set of avalible content types updates. This option fixes the problem with avalible buttons in ribbon 
- * There is an option that updates current folders avalible content types by the *ContentTypes* param in options
- * The solution shows the extended buttons for creating office documents on document libraries if office web apps is avalible
+ * There is an option to show a loading gif on the page instead of grid with data before callout data is loaded
+ * There is an option that automatically reloads the page if the set of available content types updates. This option fixes the problem with available buttons in ribbon 
+ * There is an option that updates current folders available content types by the *ContentTypes* param in options
+ * The solution shows the extended buttons for creating office documents on document libraries if office web apps is available
  * The solution works in SharePoint Foundation 2013, SharePoint Server 2013, SharePoint Online, SharePoint Server 2016
  * The solution has a localization for different languages. By default there is ru-ru localization and en-us (witch is by default)
  * The solution can work with enabled minimal download strategy feature
@@ -66,7 +66,7 @@ You need to download the release file *spf.nic.applyto.js* and *spf.newitemcallo
 
 
 ## How can we use it with SPMeta2 (M2)?
-The sources contains the SPMeta2 model for deploing the js file in _catalogs/masterpage folder of the solution. You can use this model in your own solution or deploy with [this solution](https://github.com/sergeisnitko/sp-cmd-deploy)
+The sources contains the SPMeta2 model for deploying  the js file in _catalogs/masterpage folder of the solution. You can use this model in your own solution or deploy with [this solution](https://github.com/sergeisnitko/sp-cmd-deploy)
 
 ## How can we use in my own solution?
 You can download the sources and copy files and model to your own project, update settings of the solution and set the JSLink of the views by your own. But there is an easy way - use the [nuget](https://www.nuget.org/packages/sp-newitemcallout/) for your solution in Visual Studio.
