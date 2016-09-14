@@ -10,8 +10,7 @@ In addition, what do we have in lists? A hero button, that refers to a new form 
 
 Therefore, the main feature of this project is to make this callout with list of enabled content types for each folder in list or a library.
 
- 
-dddddddd
+
 
 
 Next feature is solving the problem of rendering hero button if needs. In different versions of clienttemplates.js there is different check of it. Look at the function ShouldRenderHeroButton
