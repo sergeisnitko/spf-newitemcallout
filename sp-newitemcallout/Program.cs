@@ -14,7 +14,7 @@ namespace sp_newitemcallout
             SharePoint.CmdExecute(args, "SPF Newitem Callout",
                 options =>
                 {
-                    Model.Deploy(options); //comment
+                    Model.Deploy(options);
                 },
                 null,
                 null
