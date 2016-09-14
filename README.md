@@ -1,5 +1,8 @@
 # SharePoint custom callout for new item hero button
 
+![](https://sergeisnitko.github.io/repos/spf-newitemcallout/sp-newitemcallout-main.gif)
+
+
 ## What is this????
 
 The main idea of this project was very simple. Look at this standard callout in SharePoint 2013 for a document library with enabled WOPI.
